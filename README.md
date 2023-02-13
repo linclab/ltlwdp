@@ -17,4 +17,4 @@ torch==1.5.0
 torchvision==0.6.0
 ```
 
-Code for convolutional models in Appendix B is in "conv" directory. 
+Code for convolutional models in Appendix B is in the "conv" directory. 
