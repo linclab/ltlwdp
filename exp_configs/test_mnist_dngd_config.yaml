@@ -1,0 +1,33 @@
+NGD: true
+TEST: true
+batch_size: 250
+c_sgd: false
+dataset: MNIST
+f_lambda: 2.5e-05
+f_ma_scale: 0.02
+global_seed: 1
+i_iid_i: false
+layer_type: EiShuntBasic
+lr: 300
+n_e: 500
+n_epochs: 50
+n_hidden: 3
+n_i: 1
+results_save_dir: ./results/mnist_dngd_dann/
+scale_finv_by_norm_wex_finv: true
+seeds:
+- 1
+selected_params:
+- dataset
+- layer_type
+- lr
+- batch_size
+- n_e
+- n_i
+- n_epochs
+- TEST
+- c_sgd
+- NGD
+- f_lambda
+- f_ma_scale
+- i_iid_i

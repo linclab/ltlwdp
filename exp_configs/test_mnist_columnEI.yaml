@@ -1,0 +1,22 @@
+NGD: false
+TEST: true
+batch_size: 32
+dataset: MNIST
+layer_type: ColumnEi
+lr: 0.05273
+n_e: 550
+n_epochs: 50
+n_hidden: 3
+n_i: 10 # ratio 10:1, for 500e 50i
+results_save_dir: ./results/mnist_colei_550
+seeds:
+- 1
+selected_params:
+- dataset
+- layer_type
+- lr
+- batch_size
+- n_e
+- n_i
+- n_epochs
+- TEST

@@ -1,0 +1,28 @@
+NGD: false
+TEST: true
+batch_size: 32
+c_sgd: true
+dataset: MNIST
+i_iid_i: false
+layer_type: EiShuntBasic
+lr: 0.1107
+n_e: 500
+n_epochs: 50
+n_hidden: 3
+n_i: 50
+results_save_dir: ./results/mnist_50int
+seeds:
+- 1
+selected_params:
+- dataset
+- layer_type
+- lr
+- batch_size
+- n_e
+- n_i
+- c_sgd
+- n_epochs
+- TEST
+
+
+
